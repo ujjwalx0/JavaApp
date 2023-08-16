@@ -1,0 +1,24 @@
+2023-08-11 13:57:39.650  INFO 18372 --- [restartedMain] com.example.Test.TestApplication         : Starting TestApplication using Java 17.0.1 on HTC-D-5H4X6BS with PID 18372 (C:\Users\19089\Downloads\Test\Test\target\classes started by 19089 in C:\Users\19089\Downloads\Test\Test)
+2023-08-11 13:57:39.657  INFO 18372 --- [restartedMain] com.example.Test.TestApplication         : No active profile set, falling back to default profiles: default
+2023-08-11 13:58:01.715  INFO 18372 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-11 13:58:02.728  INFO 18372 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 961 ms. Found 2 JPA repository interfaces.
+2023-08-11 13:58:08.591  INFO 18372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-11 13:58:08.598  INFO 18372 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-11 13:58:08.604  INFO 18372 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-08-11 13:58:09.540  INFO 18372 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-11 13:58:09.540  INFO 18372 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 29876 ms
+2023-08-11 13:58:19.903  INFO 18372 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-11 13:58:19.948  INFO 18372 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-08-11 13:58:20.368  INFO 18372 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-08-11 13:58:20.371  INFO 18372 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-08-11 13:58:40.524  INFO 18372 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-11 13:58:40.526  INFO 18372 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 13:58:41.936  WARN 18372 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-11 13:58:43.375  INFO 18372 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@733c87db, org.springframework.security.web.context.SecurityContextPersistenceFilter@2087d51b, org.springframework.security.web.header.HeaderWriterFilter@60df06c5, org.springframework.security.web.authentication.logout.LogoutFilter@1a9141b1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@19ec2885, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@126b6092, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a1ab534, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@367c4b2c, org.springframework.security.web.session.SessionManagementFilter@44e95bb7, org.springframework.security.web.access.ExceptionTranslationFilter@38a14fe6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@507af51b]
+2023-08-11 13:58:43.688  INFO 18372 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-11 13:58:43.706  INFO 18372 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-08-11 13:58:52.321  INFO 18372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-11 13:58:52.959  INFO 18372 --- [restartedMain] com.example.Test.TestApplication         : Started TestApplication in 74.437 seconds (JVM running for 5315.519)
+2023-08-11 13:58:54.015  INFO 18372 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-11 13:58:54.016  INFO 18372 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-08-11 13:58:54.026  INFO 18372 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
